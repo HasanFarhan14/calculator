@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="app.js"></script>
+    <!-- <a href="#" onclick="greet()">CLICK</a> -->
+    <div class="main">
+        <div > <input type="text" id="result" style=" width: 341.5px; height: 60px; "></div>
+
+        <!-- SECTION 1 -->
+        <div><button class="wide" style="margin-top: 10px;" onclick="clearBtn()">C</button>
+            <button class="wide" onclick="getNum('/')">/</button>
+        </div>
+        <!-- SECTION 2 -->
+        <div>
+            <button onclick="getNum('7')">7 </button>
+            <button onclick="getNum('8')"> 8</button>
+            <button onclick="getNum('9')">9 </button>
+            <button onclick="getNum('*')">* </button>
+        </div>
+        <!-- SECTION 3 -->
+        <div>
+            <button onclick="getNum('4')">4 </button>
+            <button onclick="getNum('5')">5 </button>
+            <button onclick="getNum('6')">6 </button>
+            <button onclick="getNum('-')">- </button>
+        </div>
+        <!-- SECTION 4 -->
+        <div>
+            <button onclick="getNum('1')">1 </button>
+            <button onclick="getNum('2')">2 </button>
+            <button onclick="getNum('3')">3 </button>
+            <button onclick="getNum('+')">+ </button>
+        </div>
+        <!-- SECTION 5 -->
+        <div>
+            <button class="wide" onclick="getNum('0')">0 </button>
+            <button class="wide" onclick="finaloutput()">= </button>
+        </div>
+
+    </div>
+</body>
+
+</html>
